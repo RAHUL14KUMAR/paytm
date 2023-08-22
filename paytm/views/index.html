@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="row my-5">
+        <div class="col-md-4 offset-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <form class="" action="/paynow" method="post">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="enter your name" name="name" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="email" placeholder="enter your email" name="email" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" placeholder="enter your mobile number" name="phone" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" type="number" placeholder="enter your amount" name="amount" value="" required/>
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="enter your message" name="message" value="" required/>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn form-control btn-primary">Proceed To Pay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
